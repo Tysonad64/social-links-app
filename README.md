@@ -14,11 +14,11 @@
 
 ### <u>Desktop View</u>
 
-![Desktop Screenshot](./screenshot-desktop.jpg)
+![Desktop Screenshot](./screenshots/screenshot-desktop.jpg)
 
 ### <u>Mobile View</u>
 
-![Mobile Screenshot](./screenshot-mobile.jpg)
+![Mobile Screenshot](./screenshots/screenshot-mobile.jpg)
 
 ### Links  
 
