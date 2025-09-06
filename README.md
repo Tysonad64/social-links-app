@@ -1,7 +1,7 @@
-### Social Links App
+# Social Links App
 
 ## Overview
-# The challenge
+### The challenge
 <u>Users should be able to:</u>
 
 - View the optimal layout for the site depending on their device's screen size
@@ -15,10 +15,10 @@ https://imgur.com/GCwtKU1
 
 Links  
 
-Live Site URL: (http://tysonad64.github.io/social-links-app/)
+Live Site URL:  (http://tysonad64.github.io/social-links-app/)
 
 ## My process
-# Built with:
+### Built with:
 - Semantic HTML5 markup
 
 - CSS custom properties
@@ -31,7 +31,7 @@ Live Site URL: (http://tysonad64.github.io/social-links-app/)
 
 - Font Awesome icons for social media links
 
-# What I learned
+## What I learned
 Through this project, I deepened my understanding of several key web development concepts:
 
 CSS Custom Properties (Variables): I implemented a comprehensive color system using CSS variables, making it easy to maintain consistent theming throughout the project.
@@ -44,6 +44,7 @@ css
     --clr-deep-space-a20: #1A1A3A;
     /* ... more color variables */
 }
+
 Responsive Design: I created a fully responsive layout that works seamlessly across mobile, tablet, and desktop devices using media queries and flexible units.
 
 css
@@ -60,6 +61,7 @@ css
     
     /* ... more responsive adjustments */
 }
+
 Interactive Elements: I implemented smooth hover and focus states for all interactive elements, enhancing the user experience.
 
 css
@@ -75,6 +77,7 @@ css
     transform: translateY(-2px);
     outline: none;
 }
+
 External Resource Integration: I successfully integrated Font Awesome icons via CDN and ensured they displayed correctly across all devices.
 
 ## Useful resources
