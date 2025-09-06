@@ -1,63 +1,86 @@
-# Frontend Mentor - Social links profile solution
-
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+### Social Links App
 
 ## Overview
+# The challenge
+<u>Users should be able to:</u>
 
-### The challenge
-
-Users should be able to:
+- View the optimal layout for the site depending on their device's screen size
 
 - See hover and focus states for all interactive elements on the page
 
-### Screenshot
+- Access all social media links with proper styling and functionality
 
-![](./screenshot.jpg)
+<u>Screenshot</u>
+https://imgur.com/GCwtKU1
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+Links  
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+Live Site URL: (http://tysonad64.github.io/social-links-app/)
 
 ## My process
-
-### Built with
-
+# Built with:
 - Semantic HTML5 markup
+
 - CSS custom properties
+
 - Flexbox
-- CSS Grid
+
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- CSS Grid for layout structure
 
-### What I learned
+- Font Awesome icons for social media links
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+# What I learned
+Through this project, I deepened my understanding of several key web development concepts:
+
+CSS Custom Properties (Variables): I implemented a comprehensive color system using CSS variables, making it easy to maintain consistent theming throughout the project.
+
+css
+:root{
+    /** Deep space colors */
+    --clr-deep-space-a0: #000000;
+    --clr-deep-space-a10: #0A0A2A;
+    --clr-deep-space-a20: #1A1A3A;
+    /* ... more color variables */
+}
+Responsive Design: I created a fully responsive layout that works seamlessly across mobile, tablet, and desktop devices using media queries and flexible units.
+
+css
+@media (max-width: 480px) {
+    .card {
+        padding: 20px 15px;
+        margin: 20px auto;
+    }
+    
+    .profile-picture {
+        width: 90px;
+        height: 90px;
+    }
+    
+    /* ... more responsive adjustments */
+}
+Interactive Elements: I implemented smooth hover and focus states for all interactive elements, enhancing the user experience.
+
+css
+.link:hover {
+    background-color: var(--clr-primary-a30);
+    box-shadow: 0 6px 12px var(--clr-surface-a0);
+    transform: translateY(-2px);
+}
+
+.link:focus {
+    background-color: var(--clr-primary-a30);
+    box-shadow: 0 6px 12px var(--clr-surface-a0);
+    transform: translateY(-2px);
+    outline: none;
+}
+External Resource Integration: I successfully integrated Font Awesome icons via CDN and ensured they displayed correctly across all devices.
+
+## Useful resources
+- Font Awesome Documentation - Helped with properly implementing and styling icons.
+
+- CSS-Tricks Guide to Flexbox - Excellent resource for understanding flexbox layout.
+
+- MDN Web Docs - Comprehensive reference for HTML and CSS properties.
 
