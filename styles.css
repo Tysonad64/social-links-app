@@ -124,6 +124,13 @@
             transform: translateY(-2px);
         }
 
+        .link:focus{
+            background-color: var(--clr-primary-a30);
+            box-shadow: 0 6px 12px var(--clr-surface-a0);
+            transform: translateY(-2px);
+            outline: none;
+        }
+
         .link:active {
             background-color: var(--clr-primary-a0);
             transform: translateY(0);
