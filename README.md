@@ -10,12 +10,19 @@
 
 - Access all social media links with proper styling and functionality
 
-<u>Screenshot</u>
-![Site Screenshot](./screenshot.jpg)
+## Screenshot
+
+### <u>Desktop View</u>
+
+![Desktop Screenshot](./screenshot-desktop.jpg)
+
+### <u>Mobile View</u>
+
+![Mobile Screenshot](./screenshot-mobile.jpg)
 
 ### Links  
 
-Live Site URL: ![Social Links App Live Site](http://tysonad64.github.io/social-links-app/)
+Live Site URL: [View Live Site](http://tysonad64.github.io/social-links-app/)
 
 ## My process
 ### Built with:
