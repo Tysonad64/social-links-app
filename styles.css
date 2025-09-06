@@ -1,0 +1,105 @@
+:root{
+/** Deep space colors */
+--clr-deep-space-a0: #000000;
+--clr-deep-space-a10: #0A0A2A;
+--clr-deep-space-a20: #1A1A3A;
+--clr-deep-space-a30: #2A2A4A;
+--clr-deep-space-a40: #3A3A5A;
+
+/** Base colors */
+--clr-dark-a0: #000000;
+--clr-light-a0: #ffffff;
+
+/** Theme primary colors */
+--clr-primary-a0: #0a0a29;
+--clr-primary-a10: #22233d;
+--clr-primary-a20: #3a3a53;
+--clr-primary-a30: #53536a;
+--clr-primary-a40: #6e6d81;
+--clr-primary-a50: #898899;
+
+/** Theme surface colors */
+--clr-surface-a0: #000000;
+--clr-surface-a10: #1e1e1e;
+--clr-surface-a20: #353535;
+--clr-surface-a30: #4e4e4e;
+--clr-surface-a40: #696969;
+--clr-surface-a50: #858585;
+
+/** Theme tonal surface colors */
+--clr-surface-tonal-a0: #010106;
+--clr-surface-tonal-a10: #1e1e21;
+--clr-surface-tonal-a20: #363638;
+--clr-surface-tonal-a30: #4f4f51;
+--clr-surface-tonal-a40: #69696b;
+--clr-surface-tonal-a50: #858587;
+
+}
+
+body{
+    background: linear-gradient(45deg, #000000, #0A0A2A, #1A1A3A, #2A2A4A, #3A3A5A) no-repeat;
+    min-height: 100vh;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 4px solid var(--clr-primary-a10);
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-decoration: underline var(--clr-primary-a10) 3px;
+    text-underline-offset: 6px;
+}
+
+
+.card{
+    background-color: var(--clr-primary-a0);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px var(--clr-surface-a0);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin: 50px auto;
+    color: var(--clr-light-a0);
+    font-family: Orbitron, sans-serif;
+    letter-spacing: 2px;
+}
+
+.location{
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: var(--clr-primary-a50);
+    margin-bottom: 2rem;
+}
+
+.bio {
+    font-size: 0.7em;
+    margin-bottom: 20px;
+    color: var(--clr-light-a0);
+    font-style: italic;
+}
+
+.links-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    display: grid;
+}
+
+.link {
+    gap: 10px;
+    align-items: center;
+    padding: 1rem 6rem;
+    border-radius: 10px;
+    background-color: var(--clr-primary-a20);
+    text-decoration: none;
+    color: var(--clr-light-a0);
+}
